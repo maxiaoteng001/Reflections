@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Through viewing a diff, we can find that we've changed, typo or other contents.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?（从长远来看）
+
+    Save every version files when modification a file. Then you can find differents
+ 	between the older and the new one when a bug appears.
+
+ 	Editor, Offline, Manual save(Automatically saved), 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Version automatically saved can help us to find every version file. When a new 
+    file is finded a bug, we can find the differences through use diff command.
+
+    (NEW)//
+    When we finish a logical change, we should submit a commit. In this case, I think that manually choose a commit is more help us to figure out what we've changed.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because git treats multiple files as a object。Then google Docs think it doesn't need to do that.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Not before, will be in the future.
+    NEW//
+    Through use git log command, you can find the commits from the first change to the latest change. In the log, you can see commit ID, author, submit date and commit decription of every commit.
+    Also, you can use the git command that git(space)diff(space)previous_commit_id(space)last_commit_id, to compare the difference between the double commits.  
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    When I break something throuth make change something, then I can use the older safety version though version control system.
+
+    NEW//
+    When I find a bug in the latest commit, I can check the previous commit though the git checkout command with commit ID, then I can test the old one for confirming that the bug comes from the previous commit. If the previous commit also has the same bug, then I can test the previous one, until I find the commit that hasn't the bug.
+    And I also can use git diff command for comparing two versions of the code, then finding the codes that cause the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Yes, I can't wait to use git to start my first object.
+    NEW//
+    I want to built many multiple versions objects when I need. And I'll try my best to make mistakes for getting more excellent codes, use these things that I've learnt in is git course. 
