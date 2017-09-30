@@ -26,5 +26,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Git merge command creates a commit that has all info both two branches. The new commit connects two branches, so it has two parents.
+	Through represent the merge commit in the diagram, we'll known that the relationship between these commits. 
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
