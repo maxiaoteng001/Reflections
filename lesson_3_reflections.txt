@@ -33,4 +33,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I work on a project with several or more collaborater, for avoiding someone's changes confuse the master contents, or introduces bugs, I think I'll suggest our team make changes in a seprate branch.
+    Just one branch, we can use fast-forward merge to commit our changes sometimes.
+    For multiply branches, we can have a try without influencing other people to work on.
