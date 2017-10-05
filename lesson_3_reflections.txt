@@ -22,7 +22,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    To a copy of the last known state of the remote stored locally, through I compare the copy and the remote one, I'll know what have been changed on GitHub servers by other collaboraters.
+    I can update my local copy while I am offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
